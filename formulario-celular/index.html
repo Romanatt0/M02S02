@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+
+    <title>Document</title>
+</head>
+<body>
+
+    <form action="/cadastrar celular" id = "cadastro">
+
+        <h3>Cadastro de celulares</h3>
+
+         <label for="Marca">Marca:</label>
+         <select id="Marca" name="Marca">
+             <option value="">-- Selecione --</option>
+             <option value="iPhone">Iphone</option>
+             <option value="Samsung">Samsung</option>
+             <option value="Motorola">Motorola</option>
+             <option value="LG ">LG </option>
+            </select><br>
+
+         <label for="Modelo" class = "caixa">Modelo:</label>
+         <input type="text" name="" id=""> <br>
+
+         <label for="Cor" class = "caixa">Cor:</label>
+         <input type="text" name="" id=""> <br>
+         
+         <label for="Valor" class = "caixa">Valor:</label>
+         <input type="number" name="" id=""><br>
+
+         <div class="radio-group" class = "caixa">
+            <label for="estado" class = "caixa">Estado do produto</label>
+            <label class = "caixa">
+                <input type="radio" name="estado" value="novo" class="radio-btn"> Novo
+            </label>
+
+            <label >
+                <input type="radio" name="estado" value="usado" class="radio-btn"> Usado
+            </label>
+         </div><br>
+
+         <textarea name="" id="">Mais informações</textarea><br>
+
+         <button class = "caixa">Salvar</button>
+         <button class = "caixa">Voltar</button>
+    </form>
+    
+</body>
+</html>

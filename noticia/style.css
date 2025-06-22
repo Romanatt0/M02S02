@@ -1,0 +1,55 @@
+#Titulo{
+
+    text-align: center;
+    background-color: black;
+    color: white;
+    font-style: italic;
+    font-size: xx-large;  
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 10px;
+    display: block;
+   z-index: 10;
+    
+}
+
+    body {
+    padding-top: 80px;
+    }
+
+
+
+    #texto {
+        max-width: 900px;
+        margin: auto;
+        padding: 20px;
+        font-family: Arial, sans-serif;
+        line-height: 1.6;
+    }
+
+    .bloco-grid {
+        display: grid;
+        grid-template-columns: auto 1fr;
+        gap: 20px;
+        align-items: start;
+        margin: 20px 0;
+    }
+
+
+
+
+
+    .bloco-grid img {
+        max-width: 100%;
+        height: auto;
+
+        float: right;
+
+    }
+
+    .bloco-grid p {
+        margin: 0;
+    }
+
